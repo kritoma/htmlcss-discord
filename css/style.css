@@ -26,7 +26,7 @@ button{
 
 
 .container{
-    width: 1280px;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -37,28 +37,24 @@ header{
     ;
 }
 
-.logo{
+.logo, .login{
     float: left;
     width: 20%;
 }
 
-nav{
+header nav{
     float: left;
     width: 60%;
     text-align: center;
+    padding-top: 5px;
 }
 
-.login{
-    float: left;
-    width: 20%;
-}
-
-li{
+nav li{
     display: inline-block;
     padding: 0 20px;
 }
 
-a{
+nav li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -84,7 +80,7 @@ a{
     transform: translate(-50%, -50%);
     width: 630px;
 }
-.text-hero h1, .text-hero p, .text-hero button{
+.text-hero h1, .text-hero p{
     color: white;
     text-align: center;
 }
@@ -97,4 +93,53 @@ a{
 .text-hero p{
     font-size: 25px;
     padding-bottom: 20px;
+}
+
+.buttons{
+    text-align: center
+}
+
+.buttons > button{
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.black{
+    background-color: #23272a;
+    color: white;
+    margin-left: 20px;
+}
+
+/* section con immagine */
+section{
+    margin-bottom: 100px;
+}
+
+.column-left{
+    width: 60%;
+    padding-top: 100px;
+    float: left;
+}
+
+.column-right{
+    width: 40%;
+    margin: auto;
+    text-align: left;
+    padding-top: 140px;
+    float: left;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.second-section{
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 100px;
 }
