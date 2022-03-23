@@ -143,3 +143,19 @@ p{
     margin: 0;
     padding: 100px;
 }
+
+.last-section{
+    text-align: center;
+}
+
+.big-image{
+    display: block;
+    margin: auto;
+}
+
+.purple{
+    margin-top: 15px;
+    background-color: #8ea1e1;
+    color: white;
+    padding: 15px 20px;
+}
